@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans:700|Questrial&amp;subset=latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/whatsapp.css">
+    <title>Whatsapp Mock</title>
+</head>
+<body>
+	<div class="container-fluid chatsrowfirstelement">
+		<div class="row">
+			<div class="col-12">
+				<nav class="navbar fixed-top blue-back">
+				  <a class="navbar-brand blue-white" href="index.html">WA</a>
+				</nav>
+			</div>
+		</div>
+	</div>
+	<div class="container spacingdiv">
+		<div class="row">
+			<div class="col-12 d-md-none">
+				<nav>
+				  <div class="nav nav-tabs nav-justified" id="nav-tab" role="tablist">
+				    <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Chats</a>
+				    <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="true">Profile</a>
+				  </div>	
+				</nav>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-12 col-md-5 overflowscrollbar">
+				<div class="tab-content chatrow" id="nav-tabContent">
+					<div class="profilename d-none d-sm-none d-md-block">
+						<img src="img/ProfilePicture.jpg" class="img-circle img-fluid" alt="Profile Picture">
+						<span><label class="material-icons uploadimage">camera_alt<input type="file" hidden></label></span>
+						<div class="profilename">Naveen Kumar</div>
+					</div>
+					  <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+					  	<div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+					  	<a class="nav-link active" name="myNav" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-90kids" role="tab" aria-controls="v-pills-home" aria-selected="true">
+						  	<div class="row active-link chatsrow" onclick="openNav(1)">
+						  		<div class="col-3 col-sm-2">
+						  			<img src="img/90kids.jpg" class="img-thumbnail rounded mx-auto d-block" alt="90">
+						  		</div>
+						  		<div class="chatrowborder col-9 col-sm-10">
+						  			<div class="col-12 chatname">
+						  					90's Kids
+						  			</div>
+						  			<div class="col-12 chattext">
+						  					<span class = "sendername text-muted">Prakash: <span class="sendertext"> Nyc </span></span>
+						  			</div>
+						  		</div>
+						  	</div>
+						 </a>
+						 <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-Madhan" role="tab" aria-controls="v-pills-profile" aria-selected="false">
+						 	<div class="row active-link chatsrow" onclick="openNav(2)">
+						  		<div class="col-3 col-sm-2">
+						  			<img src="img/Madhan.jpg" class="img-thumbnail rounded mx-auto d-block" alt="MD">
+						  		</div>
+						  		<div class="chatrowborder col-9 col-sm-10">
+						  			<div class="col-12 chatname">
+						  					Madhan
+						  			</div>
+						  			<div class="col-12 chattext">
+						  					<span class = "sendername text-muted">Yes.. Come @5..</span>
+						  			</div>
+						  		</div>
+						  	</div>
+						 </a>
+						 <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-UsualSuspects" role="tab" aria-controls="v-pills-profile" aria-selected="false">
+						 	<div class="row active-link chatsrow" onclick="openNav(3)">
+						  		<div class="col-3 col-sm-2">
+						  			<img src="img/UsualSuspects.jpg" class="img-thumbnail rounded mx-auto d-block" alt="US">
+						  		</div>
+						  		<div class="chatrowborder col-9 col-sm-10">
+						  			<div class="col-12 chatname">
+						  					Usual Suspects
+						  			</div>
+						  			<div class="col-12 chattext">
+						  					<span class = "sendername text-muted">You: <span class="sendertext"> Yes.. Come @5.. </span></span>
+						  			</div>
+						  		</div>
+						  	</div>
+						 </a>
+						 <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-Prasanth" role="tab" aria-controls="v-pills-profile" aria-selected="false">
+						 	<div class="row active-link chatsrow" onclick="openNav(4)">
+						  		<div class="col-3 col-sm-2">
+						  			<img src="img/Prasanth.jpeg" class="img-thumbnail rounded mx-auto d-block" alt="PT">
+						  		</div>
+						  		<div class="chatrowborder col-9 col-sm-10">
+						  			<div class="col-12 chatname">
+						  					Prasanth
+						  			</div>
+						  			<div class="col-12 chattext">
+						  					<span class = "sendername text-muted"><span class="sendertext"> Impossible</span>
+						  			</div>
+						  		</div>
+						  	</div>
+						 </a>
+						 <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-Prince" role="tab" aria-controls="v-pills-profile" aria-selected="false">
+						 	<div class="row active-link chatsrow" onclick="openNav(5)">
+						  		<div class="col-3 col-sm-2">
+						  			<img src="img/Prince.jpeg" class="img-thumbnail rounded mx-auto d-block" alt="PR">
+						  		</div>
+						  		<div class="chatrowborder col-9 col-sm-10">
+						  			<div class="col-12 chatname">
+						  					Prince &nbsp; &nbsp;<span class="badge badge-primary">1</span>
+						  			</div>
+						  			<div class="col-12 chattext">
+						  					<span class = "sendername text-muted"><span class="sendertext"> Just now</span></span>
+						  			</div>
+						  		</div>
+						  	</div>
+						 </a>
+						 <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-6to60" role="tab" aria-controls="v-pills-profile" aria-selected="false">
+						 	<div class="row active-link chatsrow" onclick="openNav(6)">
+						  		<div class="col-3 col-sm-2">
+						  			<img src="img/6to60.jpeg" class="img-thumbnail rounded mx-auto d-block" alt="60">
+						  		</div>
+						  		<div class="chatrowborder col-9 col-sm-10">
+						  			<div class="col-12 chatname">
+						  					6 to 60's &nbsp; &nbsp;<span class="badge badge-primary">3</span>
+						  			</div>
+						  			<div class="col-12 chattext">
+						  					<span class = "sendername text-muted">Prince:<span class="sendertext"> Boys</span>
+						  			</div>
+						  		</div>
+						  	</div>
+						 </a>
+						 <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-weekendplans" role="tab" aria-controls="v-pills-profile" aria-selected="false">
+						 	<div class="row active-link chatsrow" onclick="openNav(7)">
+						  		<div class="col-3 col-sm-2">
+						  			<img src="img/weekend.jpeg" class="img-thumbnail rounded mx-auto d-block" alt="WP">
+						  		</div>
+						  		<div class="chatrowborder col-9 col-sm-10">
+						  			<div class="col-12 chatname">
+						  					Weekend Plans &nbsp; &nbsp;<span class="badge badge-primary">1</span>
+						  			</div>
+						  			<div class="col-12 chattext">
+						  					<span class = "sendername text-muted">Prakash:<span class="sendertext"> Any plans?</span></span>
+						  			</div>
+						  		</div>
+						  	</div>
+						 </a>
+						</div>
+					</div>
+					<div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+						<div class="profilename d-sm-block d-md-none">
+						<img src="img/ProfilePicture.jpg" class="img-circle img-fluid" alt="Profile Picture">
+						<span><label class="material-icons uploadimage">camera_alt<input type="file" hidden></label></span>
+						<div class="profilename">Naveen Kumar</div>
+					</div>
+					</div>
+				</div>
+			</div>
+			<div class="d-none d-md-block col-md-7 chatsmessages">
+				<div class="tab-content" id="v-pills-tabContent">
+					<div class="tab-pane fade show active" id="v-pills-90kids" role="tabpanel" aria-labelledby="v-pills-home-tab">
+						<div class="row chatmessage">
+							<div class="alert alert-secondary" role="alert">
+							<div class="personname">Prakash</div>
+							 Go to responsive website buddy: medium.com
+							</div>
+						</div>
+						<div class="row chatmessage">
+							<div class="alert alert-success" role="alert">
+							<div class="personname">You</div>
+							  Nyc website dude. Will use for learning purpose.
+							</div>
+						</div>
+					</div>
+					<div class="tab-pane fade" id="v-pills-Madhan" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+						<div class="row chatmessage">
+							<div class="alert alert-secondary" role="alert">
+							<div class="personname">Madhan</div>
+							 Hi Buddy Have you seen that film? Yesterday he said
+							</div>
+						</div>
+						<div class="row chatmessage">
+							<div class="alert alert-success" role="alert">
+							<div class="personname">You</div>
+							  Hi buddy. Yes, yesterday only
+							</div>
+						</div>
+						<div class="row chatmessage">
+							<div class="alert alert-success" role="alert">
+							<div class="personname">You</div>
+							  Little bit ok. Watch once If you get time
+							</div>
+						</div>
+						<div class="row chatmessage">
+							<div class="alert alert-secondary" role="alert">
+							<div class="personname">Madhan</div>
+							 Will go for match today?
+							</div>
+						</div>
+						<div class="row chatmessage">
+							<div class="alert alert-success" role="alert">
+							<div class="personname">You</div>
+							  Yes.. Come @5..
+							</div>
+						</div>
+					</div>
+					<div class="tab-pane fade" id="v-pills-UsualSuspects" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+						<div class="row chatmessage">
+							<div class="alert alert-secondary" role="alert">
+							<div class="personname">Srinath</div>
+							 Guyz todays Match?
+							</div>
+						</div>
+						<div class="row chatmessage">
+							<div class="alert alert-success" role="alert">
+							<div class="personname">You</div>
+							  Yes.. Come @5..
+							</div>
+						</div>
+					</div>
+					<div class="tab-pane fade" id="v-pills-Prasanth" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+						<div class="row chatmessage">
+							<div class="alert alert-secondary" role="alert">
+							<div class="personname">You</div>
+							 How was the movie? Is it that much good?
+							</div>
+						</div>
+						<div class="row chatmessage">
+							<div class="alert alert-success" role="alert">
+							<div class="personname">Prakash</div>
+							  Impossible.
+							</div>
+						</div>
+					</div>
+					<div class="tab-pane fade" id="v-pills-Prince" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+						<div class="row chatmessage">
+							<div class="alert alert-success" role="alert">
+							<div class="personname">You</div>
+							 Have you reached home safely?
+							</div>
+						</div>
+						<div class="row chatmessage">
+							<div class="alert alert-secondary" role="alert">
+							<div class="personname">Prince</div>
+							  Just now.
+							</div>
+						</div>
+					</div>	
+					<div class="tab-pane fade" id="v-pills-6to60" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+						<div class="row chatmessage">
+							<div class="alert alert-secondary" role="alert">
+							<div class="personname">Prakash</div>
+							 How was the day? Have you got a chance
+							</div>
+						</div>
+						<div class="row chatmessage">
+							<div class="alert alert-secondary" role="alert">
+							<div class="personname">Prince</div>
+							 Stop
+							</div>
+						</div>
+						<div class="row chatmessage">
+							<div class="alert alert-secondary" role="alert">
+							<div class="personname">Prince</div>
+							 Boys
+							</div>
+						</div>
+					</div>	
+					<div class="tab-pane fade" id="v-pills-weekendplans" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+						<div class="row chatmessage">
+							<div class="alert alert-secondary" role="alert">
+							<div class="personname">Prakash</div>
+							 Any plans?
+							</div>
+						</div>
+					</div>
+				</div>
+				<footer class="chatfooter d-none d-md-block">
+					<form class="sendText">
+					  <div class="form-row align-items-center">
+					    <div class="col-md-5">
+					      <label class="sr-only" for="inlineFormInput">Message</label>
+					      <input type="text" class="form-control" id="inlineFormInput" placeholder="Type your Message">
+					    </div>
+					    <div class="col-md-2">
+					      <button type="submit" class="btn btn-primary mb-2" disabled="disabled">Send</button>
+					    </div>
+					  </div>
+					</form>
+				</footer>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-12 d-block d-md-none">
+				<div id="myNav1" name = "overlay" class="overlay">
+				  <a href="javascript:void(0)" class="closebtn" onclick="closeNav(1)">&times;</a>
+				  <div class="overlay-content">
+				    	<div class="row chatmessage">
+							<div class="alert alert-secondary" role="alert">
+							<div class="personname">Prakash</div>
+							 Go to responsive website buddy: medium.com
+							</div>
+						</div>
+						<div class="row chatmessage">
+							<div class="alert alert-success" role="alert">
+							<div class="personname">You</div>
+							  Nyc website dude. Will use for learning purpose.
+							</div>
+						</div>
+						<form class="sendText bottomfixed">
+						  <div class="form-row align-items-center">
+						    <div class="col-9 col-sm-10">
+						      <label class="sr-only" for="inlineFormInput">Name</label>
+						      <input type="text" class="form-control" id="inlineFormInput" placeholder="Type your Message">
+						    </div>
+						    <div class="col-3 col-sm-2">
+						      <button type="submit" class="btn btn-primary mb-2 removebuttonmargin" disabled="disabled">Send</button>
+						    </div>
+						  </div>
+						</form>
+				  </div>
+				</div>
+				<div id="myNav2" name = "overlay" class="overlay">
+				  <a href="javascript:void(0)" class="closebtn" onclick="closeNav(2)">&times;</a>
+				  <div class="overlay-content">
+				    	<div class="row chatmessage">
+							<div class="alert alert-secondary" role="alert">
+							<div class="personname">Madhan</div>
+							 Hi Buddy Have you seen that film? Yesterday he said
+							</div>
+						</div>
+						<div class="row chatmessage">
+							<div class="alert alert-success" role="alert">
+							<div class="personname">You</div>
+							  Hi buddy. Yes, yesterday only
+							</div>
+						</div>
+						<div class="row chatmessage">
+							<div class="alert alert-success" role="alert">
+							<div class="personname">You</div>
+							  Little bit ok. Watch once If you get time
+							</div>
+						</div>
+						<div class="row chatmessage">
+							<div class="alert alert-secondary" role="alert">
+							<div class="personname">Madhan</div>
+							 Will go for match today?
+							</div>
+						</div>
+						<div class="row chatmessage">
+							<div class="alert alert-success" role="alert">
+							<div class="personname">You</div>
+							  Yes.. Come @5..
+							</div>
+						</div>
+						<form class="sendText bottomfixed">
+						  <div class="form-row align-items-center">
+						    <div class="col-9 col-sm-10">
+						      <label class="sr-only" for="inlineFormInput">Name</label>
+						      <input type="text" class="form-control" id="inlineFormInput" placeholder="Type your Message">
+						    </div>
+						    <div class="col-3 col-sm-2">
+						      <button type="submit" class="btn btn-primary mb-2 removebuttonmargin" disabled="disabled">Send</button>
+						    </div>
+						  </div>
+						</form>
+				  </div>
+				</div>
+				<div id="myNav3" name = "overlay" class="overlay">
+				  <a href="javascript:void(0)" class="closebtn" onclick="closeNav(3)">&times;</a>
+				  <div class="overlay-content">
+				    	<div class="row chatmessage">
+							<div class="alert alert-secondary" role="alert">
+							<div class="personname">Srinath</div>
+							 Guyz todays Match?
+							</div>
+						</div>
+						<div class="row chatmessage">
+							<div class="alert alert-success" role="alert">
+							<div class="personname">You</div>
+							  Yes.. Come @5..
+							</div>
+						</div>
+						<form class="sendText bottomfixed">
+						  <div class="form-row align-items-center">
+						    <div class="col-9 col-sm-10">
+						      <label class="sr-only" for="inlineFormInput">Name</label>
+						      <input type="text" class="form-control" id="inlineFormInput" placeholder="Type your Message">
+						    </div>
+						    <div class="col-3 col-sm-2">
+						      <button type="submit" class="btn btn-primary mb-2 removebuttonmargin" disabled="disabled">Send</button>
+						    </div>
+						  </div>
+						</form>
+				  </div>
+				</div>
+				<div id="myNav4" name = "overlay" class="overlay">
+				  <a href="javascript:void(0)" class="closebtn" onclick="closeNav(4)">&times;</a>
+				  <div class="overlay-content">
+				    	<div class="row chatmessage">
+							<div class="alert alert-secondary" role="alert">
+							<div class="personname">You</div>
+							 How was the movie? Is it that much good?
+							</div>
+						</div>
+						<div class="row chatmessage">
+							<div class="alert alert-success" role="alert">
+							<div class="personname">Prakash</div>
+							  Impossible.
+							</div>
+						</div>
+						<form class="sendText bottomfixed">
+						  <div class="form-row align-items-center">
+						    <div class="col-9 col-sm-10">
+						      <label class="sr-only" for="inlineFormInput">Name</label>
+						      <input type="text" class="form-control" id="inlineFormInput" placeholder="Type your Message">
+						    </div>
+						    <div class="col-3 col-sm-2">
+						      <button type="submit" class="btn btn-primary mb-2 removebuttonmargin" disabled="disabled">Send</button>
+						    </div>
+						  </div>
+						</form>
+				  </div>
+				</div>
+				<div id="myNav5" name = "overlay" class="overlay">
+				  <a href="javascript:void(0)" class="closebtn" onclick="closeNav(5)">&times;</a>
+				  <div class="overlay-content">
+				    	<div class="row chatmessage">
+							<div class="alert alert-success" role="alert">
+							<div class="personname">You</div>
+							 Have you reached home safely?
+							</div>
+						</div>
+						<div class="row chatmessage">
+							<div class="alert alert-secondary" role="alert">
+							<div class="personname">Prince</div>
+							  Just now.
+							</div>
+						</div>
+						<form class="sendText bottomfixed">
+						  <div class="form-row align-items-center">
+						    <div class="col-9 col-sm-10">
+						      <label class="sr-only" for="inlineFormInput">Name</label>
+						      <input type="text" class="form-control" id="inlineFormInput" placeholder="Type your Message">
+						    </div>
+						    <div class="col-3 col-sm-2">
+						      <button type="submit" class="btn btn-primary mb-2 removebuttonmargin" disabled="disabled">Send</button>
+						    </div>
+						  </div>
+						</form>
+				  </div>
+				</div>
+				<div id="myNav6" name = "overlay" class="overlay">
+				  <a href="javascript:void(0)" class="closebtn" onclick="closeNav(6)">&times;</a>
+				  <div class="overlay-content">
+				    	<div class="row chatmessage">
+							<div class="alert alert-secondary" role="alert">
+							<div class="personname">Prakash</div>
+							 How was the day? Have you got a chance
+							</div>
+						</div>
+						<div class="row chatmessage">
+							<div class="alert alert-secondary" role="alert">
+							<div class="personname">Prince</div>
+							 Stop
+							</div>
+						</div>
+						<div class="row chatmessage">
+							<div class="alert alert-secondary" role="alert">
+							<div class="personname">Prince</div>
+							 Boys
+							</div>
+						</div>
+						<form class="sendText bottomfixed">
+						  <div class="form-row align-items-center">
+						    <div class="col-9 col-sm-10">
+						      <label class="sr-only" for="inlineFormInput">Name</label>
+						      <input type="text" class="form-control" id="inlineFormInput" placeholder="Type your Message">
+						    </div>
+						    <div class="col-3 col-sm-2">
+						      <button type="submit" class="btn btn-primary mb-2 removebuttonmargin" disabled="disabled">Send</button>
+						    </div>
+						  </div>
+						</form>
+				  </div>
+				</div>
+				<div id="myNav7" name = "overlay" class="overlay">
+				  <a href="javascript:void(0)" class="closebtn" onclick="closeNav(7)">&times;</a>
+				  <div class="overlay-content">
+				    	<div class="row chatmessage">
+							<div class="alert alert-secondary" role="alert">
+							<div class="personname">Prakash</div>
+							 Any plans?
+							</div>
+						</div>
+						<form class="sendText bottomfixed">
+						  <div class="form-row align-items-center">
+						    <div class="col-9 col-sm-10">
+						      <label class="sr-only" for="inlineFormInput">Name</label>
+						      <input type="text" class="form-control" id="inlineFormInput" placeholder="Type your Message">
+						    </div>
+						    <div class="col-3 col-sm-2">
+						      <button type="submit" class="btn btn-primary mb-2 removebuttonmargin" disabled="disabled">Send</button>
+						    </div>
+						  </div>
+						</form>
+				  </div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script>
+		function openNav(a) {
+			var width = $(window).width();
+			if (width < 768) {
+		    	document.getElementById("myNav"+a).style.width = "100%";
+			}
+		}
+
+		function closeNav(a) {
+			var width = $(window).width();
+			if (width < 768) {
+		    	document.getElementById("myNav"+a).style.width = "0%";
+		    }
+		}
+	</script>
+</body>
+</html>
